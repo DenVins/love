@@ -1,6 +1,6 @@
 @keyframes leaves {0% {transform: scale(1);} 100% {transform: scale(.90);}} .image .degdeg{animation: leaves 1s ease-in-out infinite alternate;-webkit-animation: leaves 1s ease-in-out infinite alternate;}
 body{transition:all .3s ease;background-color:#000;font-family: 'Quicksand', sans-serif;padding: 15px}
-#bodyblur::after{content:"\00A9  Instagram: @dedenvagetista";color:white;opacity:.3;font-size:5px;position:absolute;bottom:25px;left:calc(50vw - 30px);} a{text-decoration:none;}
+#bodyblur::after{content:"\00A9  TikTok: @denvinz";color:white;opacity:.3;font-size:5px;position:absolute;bottom:25px;left:calc(50vw - 30px);} a{text-decoration:none;}
 #bodyblur{display:block;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);z-index:2;transition:all 1s ease;opacity:0;visibility:hidden;-webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px);}
 @keyframes kont{0%  {opacity:.5} 50% {opacity:.4} 100% {opacity:.5}}
 #bodyblur img{animation-name:kont;animation-duration: 3s;animation-iteration-count: infinite;}
